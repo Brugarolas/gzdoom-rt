@@ -1,3 +1,16 @@
+[submodule "vcpkg"]
+	path = libraries/vcpkg
+	url = https://github.com/microsoft/vcpkg.git
+	branch = master
+[submodule "zmusic"]
+	path = libraries/zmusic
+	url = https://github.com/zdoom/zmusic
+	branch = master
 [submodule "src/common/rendering/rt/unordered_dense"]
 	path = src/common/rendering/rt/unordered_dense
-	url = C:/Dev/gzdoom/src/common/rendering/rt
+	url = https://github.com/martinus/unordered_dense.git
+	branch = main
+[submodule "rtgl"]
+	path = libraries/RTGL
+	url = https://github.com/joelvaneenwyk/RTGL.git
+	branch = main
